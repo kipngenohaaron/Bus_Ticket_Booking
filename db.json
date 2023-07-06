@@ -1,0 +1,246 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "@johndoeexample.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "qwerty456"
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "password": "qwerty456"
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 4
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 5
+    },
+    {
+      "email": "",
+      "password": "jthj",
+      "id": 6
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 7
+    },
+    {
+      "email": "",
+      "password": "gthgh",
+      "id": 8
+    },
+    {
+      "email": "",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 10
+    },
+    {
+      "email": "",
+      "password": "fgfhthnt",
+      "id": 11
+    },
+    {
+      "email": "",
+      "password": "ghngn",
+      "id": 12
+    },
+    {
+      "email": "",
+      "password": "efdefve",
+      "id": 13
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 14
+    },
+    {
+      "email": "",
+      "password": "jnj",
+      "id": 15
+    },
+    {
+      "email": "",
+      "password": "ddef",
+      "id": 16
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 17
+    },
+    {
+      "email": "",
+      "password": "ferf",
+      "id": 18
+    },
+    {
+      "email": "",
+      "password": "frgrg",
+      "id": 19
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 20
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 21
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 22
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 23
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 24
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 25
+    },
+    {
+      "email": "",
+      "password": "1234",
+      "id": 26
+    },
+    {
+      "email": "",
+      "password": "geeeegrgh",
+      "id": 27
+    },
+    {
+      "email": "",
+      "password": "12344",
+      "id": 28
+    },
+    {
+      "email": "",
+      "password": "ooooooooooo",
+      "id": 29
+    },
+    {
+      "email": "",
+      "password": "password123",
+      "id": 30
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "@johndoeexample.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "qwerty456"
+    },
+    {
+      "name": "John Doe",
+      "email": "clarachepkirui77@gmail.com",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "Calvin kipkirui ",
+      "email": "calvinkipkirui99@gmail.com",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "uhfuihfcuhfcu",
+      "email": "clarachepkirui77@gmail.com",
+      "password": "hjjyh",
+      "id": 5
+    },
+    {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "ndinet",
+      "email": "calvinkipkirui99@gmail.com",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "Jane Smith",
+      "email": "kipkirui.calvin@yahoo.com",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "Jane Smith",
+      "email": "calvinkipkirui@yahoo.com",
+      "password": "",
+      "id": 9
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialty": "General Physician"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "specialty": "Cardiologist"
+    },
+    {
+      "id": 3,
+      "name": "Dr. David Johnson",
+      "specialty": "Pediatrician"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Sarah Davis",
+      "specialty": "Dermatologist"
+    }
+  ]
+}

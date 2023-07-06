@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bus Ticket Booking</h1>
+        <div class="bus-details">
+            <h2>Select Bus Route</h2>
+            <select id="bus-route">
+                <option value="">Select Route</option>
+                <!-- Populate with available bus routes -->
+            </select>
+        </div>
+        <div class="passenger-details">
+            <h2>Passenger Information</h2>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email">
+            <input type="tel" id="phone" placeholder="Phone">
+        </div>
+        <div class="ticket-details">
+            <h2>Ticket Details</h2>
+            <input type="number" id="num-tickets" placeholder="Number of Tickets">
+            <input type="text" id="seat-number" placeholder="Seat Number(s)">
+        </div>
+        <button id="book-ticket-btn">Book Ticket</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
