@@ -1,55 +1,38 @@
-# Flatdango Movie Theatre App
+# Online Bus Ticket Booking System
 
 ## Author - Kipngenoh Aaron Rotich
 
 ## Project Description
 
-#### Flatdango Movie Theatre is a modern cinema in the city, offering diverse movie genres, state-of-the-art facilities, comfortable seating, and online ticket booking for an immersive and convenient movie-watching experience.. 
-#### It also enables one to book a movie and shows the number of tickets remaining.
-
+The Online Bus Ticket Booking System is a web application that allows users to search for and book bus tickets online. It provides a convenient platform for users to browse available bus routes, select seats, and make reservations from the comfort of their homes.
 ## Table of Contents
 
 - [Features](#features)
-- [Setup](#setup)
-- [Development-requirement](#Development-requirement)
-- [Technologies_used](#Technologies_used)
+- [Technologies_used](#Technologies used)
 - [Contacts Info](#ContactsInfo)
+- [Getting started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contribution](#contribution)
 - [License](#license)
-
 ## Features
 
-The Flatdango Movie Theater provides the following features:
-- It also enables one to book a movie and shows the number of tickets remaining.
-- Display a list of Movies name.
+- User registration and login
+- Search for bus routes by origin and destination
+- View available bus schedules and seat availability
+- Select seats and make seat reservations
+- Make secure online payments
+- View and manage booking history
 
-## Development requirements
-- Visual studio code
-- Live server  extension
-- npm
-- json-sever
+## Technologies Used
 
-## Setup
-
-To run Flatdango Movie Theatre App locally, follow these steps:
-
-
-#### You need to have vs-code, git installed in your machine, db.json server installed and postman
-
-1. git clone https://github.com/kipngenohaaron/CodeChallenge_wk3.git
-2. git add .
-3. git commit -m "first commit"
-4. git push origin master
-5. run the project on localhost to preview
-
-## Technologies used
-
-1. HTML
-2. POSTMAN
-3. Vscode
-4. JavaScript
-5. DB.JSON
-6. CSS
-
+- HTML, CSS, and JavaScript for the front-end interface
+- Node.js and Express.js for the server-side development
+- DB.JSON or any other database for data storage
+- Stripe or any other payment gateway for handling online payments
 
 ## Contact Info.
 
@@ -57,7 +40,63 @@ To run Flatdango Movie Theatre App locally, follow these steps:
 #### 0724279400 / 0724828197 / 0101121100
 ## LInk to live 
 
+## Getting Started
+
+To get started with the Online Bus Ticket Booking System, follow the instructions below:
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager) should be installed on your system.
+- MongoDB or a compatible database should be installed and running.
+
+### Installation
+
+1. Clone the repository:
+
+
+2. Change to the project directory:
+
+
+3. Install the dependencies:
+
+
+### Configuration
+
+1. Set up the database:
+- Create a new MongoDB database.
+- Update the database connection URL in the configuration file (`config.js` or `config.json`) with your database details.
+
+2. Set up the payment gateway:
+- Sign up for a Stripe account or any other payment gateway service.
+- Update the payment gateway API keys in the configuration file (`config.js` or `config.json`) with your API keys.
+
+### Usage
+
+1. Start the server:
+
+
+2. Open a web browser and visit `http://localhost:3000` to access the application.
+
+3. Register a new user account or log in with an existing account.
+
+4. Use the search functionality to find bus routes based on origin and destination.
+
+5. Select a suitable bus schedule and view seat availability.
+
+6. Choose seats and proceed to make a reservation.
+
+7. Complete the payment process using the integrated payment gateway.
+
+8. After successful booking, the user will receive a confirmation with the ticket details.
+
+9. Users can view and manage their booking history from their account dashboard.
+
+## Contribution
+
+Contributions are welcome! If you have any suggestions, bug fixes, or improvements, please open an issue or submit a pull request.
+
 ## License
+
 MIT License
 Copyright 2023 Kipngenoh Aaron Rotich
 
