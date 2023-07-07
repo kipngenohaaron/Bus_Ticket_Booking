@@ -1,4 +1,4 @@
-# Online Bus Ticket Booking System
+# Bus Ticket Booking System
 
 ## Author - Kipngenoh Aaron Rotich
 
