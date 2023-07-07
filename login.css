@@ -28,14 +28,16 @@ select {
 
 button {
     display: block;
-    width: 100%;
+    width: 30%;
     padding: 10px;
-    background-color: #3498db;
+    background-color: #092dbd;
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
+
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #4cdd5a;
 }
