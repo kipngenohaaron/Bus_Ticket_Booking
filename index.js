@@ -1,114 +1,82 @@
-// Function to handle signup
-function handleSignup(event) {
-    event.preventDefault();
+// JavaScript code for login and registration functionality
 
-    const nameInput = document.querySelector('#name');
-    const emailInput = document.querySelector('#email');
-    const passwordInput = document.querySelector('#password');
+function login(event) {
+  event.preventDefault(); // Prevent form submission
 
-    const name = nameInput.value;
-    const email = emailInput.value;
-    const password = passwordInput.value;
+  // Get input values
+  var name = document.getElementById('Name').value;
+  var password = document.getElementById('password').value;
 
-    // Create a new user object
-    const newUser = {
-      name: name,
-      email: email,
-      password: password
-    };
+  // Send login request to the API
+  var url = 'http://localhost:3000/users'; // Replace with the actual API endpoint for login
 
-    // Make a POST request to the signup API endpoint
-    fetch('http://localhost:3000/signup', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(newUser)
+  // Make a GET request to the users API endpoint
+  fetch(url)
+    .then(function(response) {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error('Error: ' + response.status);
+      }
     })
-      .then(response => {
-        if (response.ok) {
-          // Show a success message or navigate to the next page
-          alert('Sign up successful! Please log in.');
-
-          // Clear the signup form fields
-          nameInput.value = '';
-          emailInput.value = '';
-          passwordInput.value = '';
-        } else {
-          // Show an error message
-          alert('Sign up failed. Please try again.');
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
+    .then(function(users) {
+      var authenticatedUser = users.find(function(user) {
+        return user.name === name && user.password === password;
       });
-  }
 
-  // Function to handle login
-  function handleLogin(event) {
-    event.preventDefault();
-
-    const emailInput = document.querySelector('#email');
-    const passwordInput = document.querySelector('#password');
-
-    const email = emailInput.value;
-    const password = passwordInput.value;
-
-    // Create a login object
-    const loginData = {
-      email: email,
-      password: password
-    };
-
-    // Make a POST request to the login API endpoint
-    fetch('http://localhost:3000/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(loginData)
+      if (authenticatedUser) {
+        // Redirect to the next page
+        window.location.href = 'next-page.html';
+      } else {
+        alert('Invalid login credentials. Please try again.');
+      }
     })
-      .then(response => {
-        if (response.ok) {
-          // Show a success message and redirect to the next page
-          alert('Login successful! Redirecting to the next page...');
-          window.location.replace('dashboard.html');
-        } else {
-          // Show an error message
-          alert('Invalid email or password. Please try again.');
+    .catch(function(error) {
+      console.error('Error:', error);
+      alert('An error occurred. Please try again later.');
+    });
+}
 
-          // Clear the login form fields
-          emailInput.value = '';
-          passwordInput.value = '';
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  }
+function signup(event) {
+  event.preventDefault(); // Prevent form submission
 
-  // Function to fetch doctors data
-  function fetchDoctors() {
-    // Make a GET request to the doctors API endpoint
-    fetch('http://localhost:3000/doctors')
-      .then(response => response.json())
-      .then(doctors => {
-        // Process the doctors data
-        console.log('Doctors:', doctors);
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  }
+  // Get input values
+  var name = document.getElementById('signupName').value;
+  var email = document.getElementById('signupEmail').value;
+  var password = document.getElementById('signupPassword').value;
 
-  // Attach event listeners to the signup and login forms
-  const signupForm = document.querySelector('.signup');
-  signupForm.addEventListener('submit', handleSignup);
+  // Send registration request to the API
+  var url = 'http://localhost:3000/users'; // Replace with the actual API endpoint for signup
+  var data = {
+    name: name,
+    email: email,
+    password: password
+  };
 
-  const loginForm = document.querySelector('.login');
-  loginForm.addEventListener('submit', handleLogin);
+  // Make a POST request to the users API endpoint
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+    .then(function(response) {
+      if (response.ok) {
+        alert('Registration successful. You can now login.');
+      } else {
+        throw new Error('Error: ' + response.status);
+      }
+    })
+    .catch(function(error) {
+      console.error('Error:', error);
+      alert('An error occurred. Please try again later.');
+    });
+}
 
-  // Fetch doctors data
-  fetchDoctors();
-  
+// Add event listeners to the login and signup forms
+var loginForm = document.getElementById('loginForm');
+loginForm.addEventListener('submit', login);
 
+var signupForm = document.getElementById('signupForm');
+signupForm.addEventListener('submit', signup);

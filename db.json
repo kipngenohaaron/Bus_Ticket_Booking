@@ -11,6 +11,12 @@
       "name": "Jane Smith",
       "email": "janesmith@example.com",
       "password": "qwerty456"
+    },
+    {
+      "name": "kenn",
+      "email": "kkkk@gmail.com",
+      "password": "123",
+      "id": 3
     }
   ],
   "login": [
@@ -163,6 +169,16 @@
       "email": "",
       "password": "password123",
       "id": 30
+    },
+    {
+      "email": "",
+      "password": "PASSWORD123",
+      "id": 31
+    },
+    {
+      "email": "",
+      "password": "PASSWORD123",
+      "id": 32
     }
   ],
   "signup": [
@@ -219,28 +235,6 @@
       "email": "calvinkipkirui@yahoo.com",
       "password": "",
       "id": 9
-    }
-  ],
-  "doctors": [
-    {
-      "id": 1,
-      "name": "Dr. John Doe",
-      "specialty": "General Physician"
-    },
-    {
-      "id": 2,
-      "name": "Dr. Jane Smith",
-      "specialty": "Cardiologist"
-    },
-    {
-      "id": 3,
-      "name": "Dr. David Johnson",
-      "specialty": "Pediatrician"
-    },
-    {
-      "id": 4,
-      "name": "Dr. Sarah Davis",
-      "specialty": "Dermatologist"
     }
   ]
 }
