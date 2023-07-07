@@ -26,7 +26,7 @@ function login(event) {
 
       if (authenticatedUser) {
         // Redirect to the next page
-        window.location.href = 'next-page.html';
+        window.location.href = 'booking.html';
       } else {
         alert('Invalid login credentials. Please try again.');
       }

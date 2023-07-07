@@ -1,41 +1,212 @@
-.container {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(169, 244, 244);
+}
+nav {
+  background-color: palevioletred;
+  color: #fff;
+  padding: 10px;
+}
+nav :hover {
+  color: rgb(34, 255, 0);
+  
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    text-align: center;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  
 }
 
-.bus-details,
-.passenger-details,
-.ticket-details {
-    margin-bottom: 20px;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding:30px;
+}
+header {
+  background-color: #2846dc;
+  color: #e7e8f2;
+  padding: 10px;
+  text-align: center;
+  
 }
 
-h2 {
-    margin-bottom: 10px;
+main {
+  display: flex;
 }
 
-input,
-select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2ebeb;
+  border-radius: 5px;
+  width: 40;
+}
+aside h2 {
+  text-align: center;
+  color: #e32782;
+}
+#films li {
+  background: rgb(142, 252, 7);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  
+  
 }
 
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+section {
+  flex: 2;
+  padding: 20px;
+  text-align: center;
 }
 
-button:hover {
-    background-color: #2980b9;
+#bus-poster {
+  width: 200px;
+  height: 300px;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 280px;
+  
+}
+
+#book-ticket-btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: #2737e3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 310px;
+}
+
+#book-ticket-btn:disabled {
+  background-color: #fd1a1a;
+  cursor: not-allowed;
+}
+footer{
+  background-color: #59ed42;
+  display: flex;
+  padding-left: 200px;
+  
+}
+
+.damir-bus {
+  display: inline-block;
+  width: 500px;
+  margin-right: 10px;
+  
+}
+
+.damir-bus img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: #fd1a1a;
+  margin-left: 10px
+}
+
+
+.contact{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 3rem;
+	background: url(../images/bg1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact-text h4{
+	margin: 15px 0;
+	color: var(--main-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.contact-text h2{
+	font-size: var(--h2-font);
+}
+.contact-text p{
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+	margin-bottom: 2rem;
+}
+.contact-list{
+	margin-bottom: 3rem;
+}
+.contact-list li{
+	margin-bottom: 10px;
+	display: block;
+}
+.contact-list li a{
+	display: block;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	font-weight: 600;
+	transition: all .40s ease;
+}
+.contact-list li a:hover{
+	transform: scale(1.01) translateY(-5px);
+	color: var(--main-color);
+}
+.contact-icons i{
+	height: 40px;
+	width: 40px;
+	background: #12141c;
+	border-radius: 0.5rem;
+	color: var(--main-color);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	margin-right: 10px;
+	transition: all .40s ease;
+}
+.contact-icons i:hover{
+	transform: scale(1.01) translateY(-5px);
+	color: var(--text-color);
+	background: var(--main-color);
+}
+
+.contact-form form{
+	position: relative;
+}
+.contact-form form input,
+form textarea{
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 18px;
+	background: #12141c;
+	color: var(--text-color);
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	border-radius: 0.5rem;
+}
+.contact-form textarea{
+	resize: none;
+	height: 220px;
+}
+.contact-form form .send{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 500;
+	background: var(--main-color);
+	color: var(--text-color);
+	width: 190px;
+	transition: all .40s ease;
+	cursor: pointer;
 }
