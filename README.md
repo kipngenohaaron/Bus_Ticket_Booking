@@ -41,6 +41,10 @@ The Online Bus Ticket Booking System is a web application that allows users to s
 
 ## LInk to live 
 https://kipngenohaaron.github.io/Bus_Ticket_Booking/
+
+
+## Deployment link
+https://bus-ticket-booking-pwps.onrender.com
 ## Getting Started
 
 To get started with the Online Bus Ticket Booking System, follow the instructions below:
