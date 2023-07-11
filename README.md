@@ -38,8 +38,9 @@ The Online Bus Ticket Booking System is a web application that allows users to s
 
 ### For more information you can reach out; Email: kipngenohaaron@gmail.com
 #### 0724279400 / 0724828197 / 0101121100
-## LInk to live 
 
+## LInk to live 
+https://kipngenohaaron.github.io/Bus_Ticket_Booking/
 ## Getting Started
 
 To get started with the Online Bus Ticket Booking System, follow the instructions below:
