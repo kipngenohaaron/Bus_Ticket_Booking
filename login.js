@@ -8,8 +8,7 @@ function login(event) {
   var password = document.getElementById('password').value;
 
   // Send login request to the API
-  var url = 'http://localhost:3000/users'; // Replace with the actual API endpoint for login
-
+  var url = 'http://localhost:3000/users'; 
   // Make a GET request to the users API endpoint
   fetch(url)
     .then(function(response) {
@@ -27,6 +26,7 @@ function login(event) {
       if (authenticatedUser) {
         // Redirect to the next page
         window.location.href = 'booking.html';
+        alert('WELCOME TO EXALT BUSES...');
       } else {
         alert('Invalid login credentials. Please try again.');
       }

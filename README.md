@@ -24,7 +24,6 @@ The Online Bus Ticket Booking System is a web application that allows users to s
 - Search for bus routes by origin and destination
 - View available bus schedules and seat availability
 - Select seats and make seat reservations
-- Make secure online payments
 - View and manage booking history
 
 ## Technologies Used
@@ -53,9 +52,7 @@ To get started with the Online Bus Ticket Booking System, follow the instruction
 
 1. Clone the repository:
 
-
 2. Change to the project directory:
-
 
 3. Install the dependencies:
 
@@ -73,7 +70,6 @@ To get started with the Online Bus Ticket Booking System, follow the instruction
 ### Usage
 
 1. Start the server:
-
 
 2. Open a web browser and visit `http://localhost:3000` to access the application.
 

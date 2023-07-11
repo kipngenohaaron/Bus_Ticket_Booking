@@ -17,6 +17,24 @@
       "email": "kkkk@gmail.com",
       "password": "123",
       "id": 3
+    },
+    {
+      "name": "kipngenoh",
+      "email": "kipngenohaaron@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "kipngenoh",
+      "email": "kipngenohaaron@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "calvin",
+      "email": "kipngenohaaron@gmail.com",
+      "password": "1234",
+      "id": 6
     }
   ],
   "login": [
@@ -237,98 +255,96 @@
       "id": 9
     }
   ],
-  
-    "buses": [
-      {
-        "id": "1",
-        "title": "The Exalted Great: Nairobi-Mombasa",
-        "runtime": "180",
-        "capacity": 51,
-        "showtime": "04:00PM",
-        "tickets_sold": 47,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": "2",
-        "title": "The Hero: Nairobi-Kampala",
-        "runtime": "200",
-        "capacity": 50,
-        "showtime": "06:45AM",
-        "tickets_sold": 44,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
-      },
-      {
-        "id": "3",
-        "title": "The Blessed: Nairobi-Jinja",
-        "runtime": "150",
-        "capacity": 50,
-        "showtime": "09:30AM",
-        "tickets_sold": 41,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/23342/p23342_v_v8_ab.jpg"
-      },
-      {
-        "id": "4",
-        "title": "Lofty The Strong: Mombasa-Jinja",
-        "runtime": "120",
-        "capacity": 40,
-        "showtime": "09:00AM",
-        "tickets_sold": 31,
-         "poster": "https://www.gstatic.com/tv/thumb/v22vodart/43468/p43468_v_v8_aa.jpg"
-      },
-      {
-        "id": "5",
-        "title": "Lifecare: Mombasa-Kampala",
-        "runtime": "180",
-        "capacity": 50,
-        "showtime": "03:30AM",
-        "tickets_sold": 45,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/4232/p4232_v_v8_aa.jpg"
-      },
-      {
-        "id": "6",
-        "title": "The Beast: Nairobi-Dodoma",
-        "runtime": "110",
-        "capacity": 30,
-        "showtime": "10:30AM",
-        "tickets_sold": 16,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/39804/p39804_v_v8_ab.jpg"
-      },
-      {
-        "id": "7",
-        "title": "Annointed One: Dodoma-Nairobi",
-        "runtime": "210",
-        "capacity": 30,
-        "showtime": "07:30AM",
-        "tickets_sold": 22,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/40518/p40518_v_v8_aa.jpg"
-        
-      },
-      {
-        "id": "8",
-        "title": "The Choosen: Jinja-Mombasa",
-        "runtime": "200",
-        "capacity": 51,
-        "showtime": "08:30AM",
-        "tickets_sold": 32,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/1466/p1466_v_v8_ab.jpg"
-      },
-      {
-        "id": "9",
-        "title": "The Eagle: Dodoma-Mombasa",
-        "runtime": "180",
-        "capacity": 40,
-        "showtime": "07:30AM",
-        "tickets_sold": 22,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/46755/p46755_v_v8_aa.jpg"
-      },
-      {
-        "id": "10",
-        "title": "Adventure: Nairobi-Jinja",
-        "runtime": "200",
-        "capacity": 50,
-        "showtime": "10:00PM",
-        "tickets_sold": 14,
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/42171/p42171_v_v8_ab.jpg"
-      }
-    ]
-  }
+  "buses": [
+    {
+      "id": "1",
+      "title": "The Exalted Great: Nairobi-Mombasa",
+      "runtime": "180",
+      "capacity": 51,
+      "showtime": "04:00PM",
+      "tickets_sold": 47,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Hero: Nairobi-Kampala",
+      "runtime": "200",
+      "capacity": 50,
+      "showtime": "06:45AM",
+      "tickets_sold": 44,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Blessed: Nairobi-Jinja",
+      "runtime": "150",
+      "capacity": 50,
+      "showtime": "09:30AM",
+      "tickets_sold": 41,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/23342/p23342_v_v8_ab.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Lofty The Strong: Mombasa-Jinja",
+      "runtime": "120",
+      "capacity": 40,
+      "showtime": "09:00AM",
+      "tickets_sold": 31,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/43468/p43468_v_v8_aa.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Lifecare: Mombasa-Kampala",
+      "runtime": "180",
+      "capacity": 50,
+      "showtime": "03:30AM",
+      "tickets_sold": 45,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/4232/p4232_v_v8_aa.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Beast: Nairobi-Dodoma",
+      "runtime": "110",
+      "capacity": 30,
+      "showtime": "10:30AM",
+      "tickets_sold": 16,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/39804/p39804_v_v8_ab.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Annointed One: Dodoma-Nairobi",
+      "runtime": "210",
+      "capacity": 30,
+      "showtime": "07:30AM",
+      "tickets_sold": 22,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/40518/p40518_v_v8_aa.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Choosen: Jinja-Mombasa",
+      "runtime": "200",
+      "capacity": 51,
+      "showtime": "08:30AM",
+      "tickets_sold": 32,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/1466/p1466_v_v8_ab.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Eagle: Dodoma-Mombasa",
+      "runtime": "180",
+      "capacity": 40,
+      "showtime": "07:30AM",
+      "tickets_sold": 22,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/46755/p46755_v_v8_aa.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Adventure: Nairobi-Jinja",
+      "runtime": "200",
+      "capacity": 50,
+      "showtime": "10:00PM",
+      "tickets_sold": 14,
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/42171/p42171_v_v8_ab.jpg"
+    }
+  ]
+}
