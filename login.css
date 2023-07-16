@@ -28,7 +28,7 @@ select {
 
 button {
     display: block;
-    width: 30%;
+    width: 100px;
     padding: 10px;
     background-color: #092dbd;
     color: #fff;
