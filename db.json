@@ -35,6 +35,12 @@
       "email": "kipngenohaaron@gmail.com",
       "password": "1234",
       "id": 6
+    },
+    {
+      "name": "User X",
+      "email": "xdudx@gmail.com",
+      "password": "qwerty6",
+      "id": 7
     }
   ],
   "login": [
