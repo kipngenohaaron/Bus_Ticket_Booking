@@ -189,17 +189,17 @@ form textarea{
 	outline: none;
 	width: 100%;
 	padding: 18px;
-	background: #12141c;
 	color: var(--text-color);
 	font-size: 1rem;
 	font-weight: 600;
 	margin-bottom: 0.5rem;
 	border-radius: 0.5rem;
+  color: black
 }
 .contact-form textarea{
 	resize: none;
 	height: 220px;
-  color: #fff;
+  
 }
 .contact-form form .send{
 	display: inline-block;
@@ -210,7 +210,6 @@ form textarea{
 	width: 190px;
 	transition: all .40s ease;
 	cursor: pointer;
-  text-decoration-color: ;
 }
 h1{
   text-align: center;
