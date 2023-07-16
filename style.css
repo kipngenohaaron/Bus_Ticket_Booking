@@ -205,11 +205,12 @@ form textarea{
 	display: inline-block;
 	font-size: 17px;
 	font-weight: 500;
-	background: var(--main-color);
-	color: var(--text-color);
-	width: 190px;
+	background-color: blue;
+	color: #fff;
+	width: 100px;
 	transition: all .40s ease;
 	cursor: pointer;
+  border-radius: 8px;
 }
 h1{
   text-align: center;
