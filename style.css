@@ -164,7 +164,7 @@ footer{
 .contact-icons i{
 	height: 40px;
 	width: 40px;
-	background: #12141c;
+	background: whitesmoke;
 	border-radius: 0.5rem;
 	color: var(--main-color);
 	display: inline-flex;
