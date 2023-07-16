@@ -8,7 +8,7 @@ The Online Bus Ticket Booking System is a web application that allows users to s
 ## Table of Contents
 
 - [Features](#features)
-- [Technologies_used](#Technologies used)
+- [TechnologiesUsed](#Technologies used)
 - [Contacts Info](#ContactsInfo)
 - [Getting started](#getting-started)
 - [Prerequisites](#prerequisites)
