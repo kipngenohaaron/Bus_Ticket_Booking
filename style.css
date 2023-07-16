@@ -177,7 +177,7 @@ footer{
 .contact-icons i:hover{
 	transform: scale(1.01) translateY(-5px);
 	color: var(--text-color);
-	background: var(--main-color);
+	background: rgb(195, 247, 84)
 }
 
 .contact-form form{
