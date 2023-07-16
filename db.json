@@ -41,6 +41,18 @@
       "email": "xdudx@gmail.com",
       "password": "qwerty6",
       "id": 7
+    },
+    {
+      "name": "denn",
+      "email": "kkkk@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "sam",
+      "email": "kipngenob50@gmail.com",
+      "password": "123456789",
+      "id": 9
     }
   ],
   "login": [
