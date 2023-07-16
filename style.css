@@ -213,8 +213,8 @@ form textarea{
 
 }
 
-button:hover {
-  background-color: #4cdd5a;
+.contact-form form .send:hover {
+  background-color: #dd4cb6;
 }
 
 h1{
