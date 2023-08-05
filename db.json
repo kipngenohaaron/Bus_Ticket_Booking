@@ -53,6 +53,12 @@
       "email": "kipngenob50@gmail.com",
       "password": "123456789",
       "id": 9
+    },
+    {
+      "name": "sam",
+      "email": "kipngenob50@gmail.com",
+      "password": "123",
+      "id": 10
     }
   ],
   "login": [
